@@ -13,13 +13,13 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/bogdanfinn/fhttp/cookiejar"
-	"github.com/bogdanfinn/fhttp/httptest"
-	tls "github.com/bogdanfinn/utls"
+	"github.com/elicopter-faster/fhttp/cookiejar"
+	"github.com/elicopter-faster/fhttp/httptest"
+	tls "github.com/elicopter-faster/utls"
 	"golang.org/x/net/publicsuffix"
 
-	http "github.com/bogdanfinn/fhttp"
-	"github.com/bogdanfinn/fhttp/http2"
+	http "github.com/elicopter-faster/fhttp"
+	"github.com/elicopter-faster/fhttp/http2"
 )
 
 // Tests if connection settings are written correctly
