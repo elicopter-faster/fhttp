@@ -19,8 +19,8 @@ import (
 
 	tls "github.com/elicopter-faster/utls"
 
-	http "github.com/elicopter-faster/fhttp/fhttp"
-	"github.com/elicopter-faster/fhttp/fhttp/internal"
+	http "github.com/elicopter-faster/fhttp"
+	"github.com/elicopter-faster/fhttp/internal"
 )
 
 // A Server is an HTTP server listening on a system-chosen port on the
